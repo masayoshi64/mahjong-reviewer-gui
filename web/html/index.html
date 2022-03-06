@@ -26,9 +26,13 @@
 
         <section id="form">
             <label for="filename">ファイル名</label>
-            <select name="filename" id="filename">
+            <select name="filename" id="filename" , onchange="updateKyokuName()">
+            </select>
+            <label for="kyokuname">局名</label>
+            <select name="kyokuname" id="kyokuname">
             </select>
         </section>
+
 
         <section>
             <button onclick="startAnalysis()">解析開始</button>

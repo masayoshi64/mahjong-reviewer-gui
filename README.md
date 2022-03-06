@@ -4,7 +4,8 @@
 1. Make "./setting.json"
 ```json
 {
-    "haifu_path": "/Users/hoge/haifu"
+    "haifu_path": "/Users/hoge/haifu",
+    "user_name": "user name"
 }
 ```
 2. Put a haifu file in tenho format in "haihu_path"
